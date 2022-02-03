@@ -22,28 +22,28 @@ tqdm 4.48.2
 ```
 <a name="instructions"/>
 
-## Instructions (TODO):
+## Instructions:
 
 Train and evaluation LightGCN + MCL:
 
 Training on `Amazon-Digital-Music` dataset:
 ```
-python main.py
+python main.py --dataset amazon-digital-music --alpha 1.25 --beta 5 --lamb_p 6.5 --lamb_n -0.5
 ```
 
 Training on `Amazon-Grocery` dataset:
 ```
-python main.py
+python main.py --dataset amazon-grocery --alpha 1.25 --beta 5 --lamb_p 6.5 --lamb_n -0.5
 ```
 
 Training on `Amazon-Books` dataset:
 ```
-python main.py
+python main.py --dataset amazon-book --alpha 1 --beta 4 --lamb_p 8 --lamb_n -1
 ```
 
 Training on `Yelp2021` dataset:
 ```
-python main.py
+python main.py --dataset yelp --alpha 1 --beta 4 --lamb_p 8 --lamb_n -1
 ```
 
 <a name="citation"/>
