@@ -63,7 +63,7 @@ if __name__ == '__main__':
             print(f'{output_information}')
             print(f"Total time {time.time() - start}")
         
-        result = Procedure.Test(dataset, model, epoch, w, args.multicore)
+        result = Procedure.Test(args, dataset, model, epoch, device, w, args.multicore)
         if np.sum(np.append(result['recall'], result['ndcg'])) > np.sum(best_result):
             best_result = np.append(result['recall'], result['ndcg'])
             torch.save(model.state_dict(), weight_file)
