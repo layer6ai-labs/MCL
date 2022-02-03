@@ -19,6 +19,7 @@ scikit-learn 0.23.2
 numpy 1.19.1
 scipy 1.5.4
 tqdm 4.48.2
+tensorboard
 ```
 <a name="instructions"/>
 
