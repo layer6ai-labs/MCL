@@ -5,7 +5,7 @@
 ## WWW'22 MCL: Mixed-Centric Loss for Collaborative Filtering 
 
 Authors: Zhaolin Gao*, Zhaoyue Cheng*, Felipe Perez, Jianing Sun, Maksims Volkovs
-
+[[paper](https://github.com/layer6ai-labs/MCL/blob/master/pdf/www2022_mcl.pdf)]
 
 <a name="Environment"/>
 
