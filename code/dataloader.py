@@ -11,7 +11,6 @@ import os
 from os.path import join
 import torch
 import numpy as np
-import pandas as pd
 import pickle
 from torch.utils.data import Dataset
 from scipy.sparse import csr_matrix
